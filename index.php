@@ -33,7 +33,7 @@
 		$db = null;
 
 
-	    $to = "alexandre.limpalaer@gmail.com";
+	    $to = "alexandre.limpalaer@gmail.com, alexandre@double-a-dev.com, armand.touzanne28@gmail.com";
 
 	    $subject = "Nouveau message du formulaire de contact";
 
@@ -65,7 +65,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="styleIndex.css">
-	<link rel="icon" href="img/logo.svg">
+	<link rel="icon" href="img/favicon.ico">
 	<title>Double-A Dev.</title>
 </head>
 <body>
@@ -152,9 +152,9 @@
         ?>
 	</div>
 	<footer class="footer">
+		<?php 
+		/*
         <div class="footer-content">
-			<?php 
-			/*
 			<ul>
 				<li class="titleLiFooter">Navigation :</li>
 				<li class="contentLi"><a href="#">Qui somme nous ?</a></li>
@@ -169,10 +169,14 @@
         		<li class="contentLi"><b>Téléphone : </b><a href="tel:0649079052">06 49 07 90 52</a></li>
         		<li class="contentLi"><b>Instagram : </b><a href="https://www.instagram.com/alexandre.limp/">alexandre.limp</a></li>
         	</ul>
-        	*/
-        	?>
         </div>
+    	*/
+    	?>
         <p>&copy; 2023 Double-A Dev. Tous droits réservés.</p>
+        <div>
+        	<a href="https://fiverr.com/alex__code" target="__blank" title="Fiverr"><img src="img/fiverr-icon.png" width="35" style="margin-right: 5px;"></a>
+        	<a href="mailto:alexandre@double-a-dev.com" title="Nous contacter par e-mail"><img src="img/mail-icon.png" width="35"></a>
+    	</div>
     </footer>
 	<script type="text/javascript" src="app.js"></script>
 </body>
